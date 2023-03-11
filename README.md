@@ -1,2 +1,2 @@
 # Parser
-- user "Cheerio"
+- use "Cheerio"
