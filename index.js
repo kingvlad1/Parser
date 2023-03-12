@@ -14,7 +14,7 @@ request('https://www.example.com', (error, response, html) => {
     // Отримати дату публікації статті
     const publishDate = $('.publish-date').text();
 
-    // Отримати зміст статті
+    // Отримати зміст статтіі
     let articleContent = '';
     $('.article-content p').each((i, el) => {
       articleContent += $(el).text() + '\n';
