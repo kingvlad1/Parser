@@ -31,5 +31,6 @@ request('https://www.example.com', (error, response, html) => {
     console.log('Дата публікації: ' + publishDate);
     console.log('Зміст статті:\n' + articleContent);
     console.log('Теги статті: ' + articleTags.join(', '));
+    console.log('дякуємо за використання програми. Кодер: kingvlad')
   }
 });
