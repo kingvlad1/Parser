@@ -8,7 +8,7 @@ request('https://www.example.com', (error, response, html) => {
   if (!error && response.statusCode == 200) {
     const $ = cheerio.load(html);
 
-    // Отримати заголовок статті
+    // ТОтримати заголовок статті
     const articleTitle = $('h1').text();
 
     // Отримати автора статті
